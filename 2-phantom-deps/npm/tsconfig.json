@@ -1,0 +1,16 @@
+{
+    "compilerOptions": {
+        "composite": true,
+        "target": "ESNext",
+        "module": "ESNext",
+        "allowSyntheticDefaultImports": true,
+        "baseUrl": ".",
+        "jsx": "preserve",
+        "noImplicitAny": true,
+        "moduleResolution": "Node",
+        "lib": [
+            "DOM",
+            "ESNext"
+        ]
+    }
+}

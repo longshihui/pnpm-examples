@@ -1,0 +1,21 @@
+{
+    "compilerOptions": {
+        "composite": true,
+        "target": "ESNext",
+        "module": "ESNext",
+        "allowSyntheticDefaultImports": true,
+        "baseUrl": ".",
+        "jsx": "preserve",
+        "noImplicitAny": true,
+        "moduleResolution": "Node",
+        "lib": [
+            "DOM",
+            "ESNext"
+        ]
+    },
+    "references": [
+        "./2-phantom-deps/npm/tsconfig.json",
+        "./2-phantom-deps/pnpm/tsconfig.json",
+        "./2-phantom-deps/yarn/tsconfig.json"
+    ]
+}

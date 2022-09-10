@@ -1,0 +1,12 @@
+{
+  "name": "@2/npm",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "vant": "^3.6.2"
+  }
+}
